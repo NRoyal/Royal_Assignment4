@@ -1,0 +1,138 @@
+/*
+Project Name: Relaxr CSS
+Client: Relaxr, Inc. 
+Author: Nicole Royal
+Developer @GA in ATL
+*/
+/******************************************
+/* SECTIONS & LAYOUT 
+/*******************************************/
+#container {
+margin: 0 auto;
+}
+.getNow {
+  background: url(../images/header_bg.jpg);
+  background-color: #000033;
+  background-size: cover; 
+  background-position: center;
+  color: white;
+  height: 700px;
+}
+header {
+  text-align: left;
+  padding: 50px;
+}
+#pieceOfMind {
+  text-align: center;
+  padding: 50px;
+}
+.benefits {
+  background-color: white;
+  height: 500px;
+  text-align: left;
+  padding: 50px;
+}
+.testimonial {
+  background-image: url(../images/testimonial_bg.jpg);
+  background-color: #000033;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  height: 450px;
+  text-align: center;
+  padding: 100px;
+}
+.signUp {
+  background-color: yellow;
+  padding: 50px;
+  height: 50px;
+}
+.footer {
+  background-color: black;
+  height: 250px;
+  text-align: center;
+  padding: 50px;
+}
+
+/******************************************
+/* ARTICLE CONTENT
+/*******************************************/
+h1  {
+  font-family: 'Roboto', sans-serif;
+  font-style: 700;
+  font-size: 60px;
+}
+.top {
+  color: white;
+}
+.bottom {
+  color: yellow;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  color: white;
+}
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  color: #000033;
+}
+.content {
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  color: #000033;
+}
+ul {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-style: 300;
+  color: #000033;
+}
+.quote {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  color: white;
+  font-style: italic;
+}
+.customer {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  color: white;
+  font-style: bold;  
+}
+.copyright {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: white;
+}
+/******************************************
+/* BUTTON & SOCIAL MEADIA
+/*******************************************/
+.button {
+  margin: auto;
+  width:  150px;
+  height: 30px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 3%;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: bold;
+  box-shadow: 30%;
+  }
+.yellow {
+  background-color: yellow;
+  color: #000033;
+  float: center;
+}
+.blue {
+  background: #000033;
+  color: white;
+}
+.socialMedia {
+  padding: 5px;
+}
+
+

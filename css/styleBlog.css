@@ -1,0 +1,420 @@
+/*
+Project Name: Relaxr Site
+Client: FEWD Course 2016-2017
+Author: Nicole Royal
+Developer @GA in ATL
+*/
+
+
+/******************************************
+/* ALL PAGE STYLES: SETUP
+/*******************************************/
+/* Clear fix hack */
+/*.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+/*.alignleft {
+  float: left;
+  padding: 0 10px 10px 0;  note the padding around a left floated image 
+}*/
+/* Center the container */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 50px 0 50px;
+}
+body {
+  line-height: 1.4;
+  font-family: 'Open Sans', sans-serif;
+}
+/******************************************
+/* INDEX PAGE STYLES: TOP IMAGE SECTION
+/*******************************************/
+div.topImage {
+  width: 100%;
+  height: 700px;
+  background-image: url(../images/header_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-size: 50px;
+  float: left;
+  padding: 0 0 0 10.5%;
+  font-weight: 800;
+}
+h1.topHome {
+  position: relative;
+  top: 30%;
+}
+a.relaxrHome h1.top:hover {
+    color: #f9e42e;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+h2.bold {
+  font-weight: 800;
+  text-align: center;
+  color: white;
+  clear: both;
+  padding: 160px 0 20px 0;
+}
+div.button {
+  width: 20%;
+  height: 60px;
+  text-align: center;
+  position: relative;
+  top: 25%;
+  left: 40%;
+  border-radius: 5px;
+}
+div.button#yellow {
+  background-color: #f9e42e;
+}
+a.homeButton { 
+  text-decoration: none; 
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  color: white;
+  position: relative;
+  top: 10px;
+}
+a.homeButton h1.top:hover {
+    color: #033048;
+}
+
+
+/******************************************
+/* INDEX PAGE STYLES: BENEFITS SECTION
+/*******************************************/
+div.benefits {
+  padding: 100px 0 0 175px;
+  width: 100%;
+  height: 605px;
+}
+p.content {
+  font-size: 24px;
+  font-weight: 300; 
+}
+p.content#benefits {
+  color: #606161;
+  width: 823px; 
+  padding: 20px 0 20px 0;
+}
+ul.listOBene {
+  padding: 15px 0 0 60px;
+  list-style-type: circle;
+} 
+
+
+/******************************************
+/* INDEX PAGE STYLES: BENEFITS SECTION
+/*******************************************/
+div.testimonial {
+  width: 100%;
+  height: 550px; 
+  background-image: url(../images/testimonial_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+p.content#quote {
+  font-style: italic;
+  font-size: 38px;
+  width: 40%;
+  height: 115px;
+  color: white;
+  clear: both;
+  text-align: center;
+  padding: 110px 0 15px 500px;
+}
+p.content#customer {
+  color: white;
+  font-weight: 800;
+  text-align: center;
+  clear: both;
+  margin: 100px;
+  font-size: 38px;
+}
+
+
+
+/******************************************
+/* INDEX PAGE STYLES: SIGNUP SECTION
+/*******************************************/
+section.signup {
+  width: 100%;
+  height: 150px;
+  background-color: #f9e42e;
+  clear: both;
+}
+div.button {
+  /* style listed within "INDEX PAGE STYLES: TOP IMAGE SECTION" 
+  above*/
+}
+div.button#blue {
+  background-color: #033048;
+  color: white;
+}
+a.homeButton { 
+    /* style listed within "INDEX PAGE STYLES: TOP IMAGE SECTION" 
+  above*/
+}
+a:hover {
+    color: #f9e42e;
+}
+
+
+/******************************************
+/* INDEX PAGE STYLES: FOOTER SECTION
+/*******************************************/
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: #121212;
+  clear: both;
+  text-align: center;
+}
+a.relaxrHome h1.bottom {
+  color: #f9e42e;
+  padding: 60px 0 40px 0;
+  clear: both;
+  width: 100%;
+}
+a.relaxrHome h1.bottom:hover {
+    color: white;
+}
+img.social {
+  padding: 25px;
+}
+p.copyright {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  padding: 60px 0 0 0;
+}
+
+
+/******************************************
+/* BLOG PAGE STYLES: HEADER SECTION
+/*******************************************/
+header {
+  width: 100%;
+  height: 150px;
+  background-color: #033048;
+}
+h1 {
+  /* style listed within "INDEX PAGE STYLES: TOP IMAGE SECTION" 
+  above*/
+}
+h1.top#blog {
+  position: relative;
+  top: 28%;
+}
+a.relaxrHome h1.top {
+  color: rgba(255,255,255,1);
+}
+a.relaxrHome h1.top:hover {
+    color: #f9e42e;
+}
+nav.head {
+  float: right;
+  position: relative;
+  top: 45%;
+  padding: 0 15% 0 0;
+}
+li.topList  {
+  display: inline; 
+} 
+a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 27px;
+}   
+a.top {
+  color: #f9e42e;
+  margin: 15px;
+}
+
+a:hover {
+    color: red;
+}
+
+
+/******************************************
+/* BLOG PAGE STYLES: BLOGROLL SECTION
+/*******************************************/
+section.blogroll {
+  width: 65%;
+  height: 2000px;
+  float: left;
+  text-align: left;
+  background-color: #f0efef;
+}
+article {
+  width: 999px;
+}
+h2 {
+  /* style listed within "INDEX PAGE STYLES: TOP IMAGE SECTION" 
+  above*/
+}
+h2.blogHead {
+  color: #033048;
+  padding: 80px 0 0 175px;
+}
+img.blogPic {
+  width: 80%;
+  height: 100%;
+  padding: 40px 0 0 175px;
+}
+.firstcharacter { 
+  float: left; 
+  color: #606161;
+  font-weight: 600; 
+  font-size: 75px; 
+  line-height: 60px; 
+  padding-top: 4px; 
+  padding-right: 8px; 
+  padding-left: 3px; 
+}
+p.content {
+  /* style listed within "INDEX PAGE STYLES: BENEFITS SECTION" 
+  above*/ 
+}
+p.content#grey {
+  padding: 20px 0 0 175px;
+  color: #606161;
+  width: 823px;
+}
+p.content#grey-2a {
+  padding: 20px 0 0 175px;
+  color: #606161;
+  width: 823px;
+  height: 300px;
+}
+p.content#grey-2b {
+  padding: 20px 0 0 175px;
+  color: #606161;
+  width: 823px;
+  height: 300px;
+}
+div.blog {
+  font-size: 24px;
+  font-weight: 600;
+  color: #033048;
+  float: right;
+  text-decoration: none;
+  clear: both;
+  width: 175px;
+  padding: 20px 0 20px 0;
+  cursor: pointer;
+}
+hr {
+  color: #033048;
+  clear: both;
+  margin: 0 0 0 175px;
+  width: 795px;
+}
+
+
+/******************************************
+/* BLOG PAGE STYLES: ASIDE SECTION
+/*******************************************/
+aside {
+  width: 35%;
+  height: 2000px;
+  float: left;
+  background-color: #f0efef;
+}
+div#asideContainer {
+  padding: 80px 0 0 0; 
+}
+div.categories {
+  float: left;
+  clear: both;
+}
+div.aboutRelaxr {
+  float: left;
+  clear: both;
+  width: 50%;
+  padding: 0 0 60px 0;
+}
+h3 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #033048;
+  padding: 0 0 5px 0
+}
+nav.rightSide {
+  float: left;
+  clear: both;
+  position: relative;
+  top: 0px;
+  padding: 0 0 60px 0;
+}
+li.sideList  {
+  clear: both;
+}
+a.side {
+  color: #033048;
+}
+a:hover {
+    color: red;
+}
+p.content#blue {
+  color: #033048;
+  font-weight: 22px;
+}
+a.bold {
+  font-size: 24px;
+  font-weight: 800;
+  color: #033048;
+  float: left;
+  clear: both;
+}
+a:hover {
+    color: red;
+}
+div.ad {
+  float: left;
+}
+img.ad {
+  clear: both;
+  float: left;
+  width: 50%;
+  padding: 20px 0 0 0;
+}
+
+
+/******************************************
+/* BLOG PAGE STYLES: SIGNUP SECTION
+/*******************************************/
+/*All styles for this section listed within "INDEX STYLES:
+SIGNUP SECTION" above. Contains exactly the same content 
+and styling.*/
+
+
+/******************************************
+/* BLOG PAGE STYLES: FOOTER SECTION
+/*******************************************/
+/*All styles for this section listed within "INDEX STYLES:
+FOOTER SECTION" above. Contains exactly the same content 
+and styling.*/
